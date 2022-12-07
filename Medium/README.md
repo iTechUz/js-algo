@@ -178,3 +178,52 @@ possibleBonus(5, 3) ➞ false
 - Siz orqaga harakat qila olmaysiz (shuning uchun №3 misol ishlamaydi).
 - Agar siz allaqachon bir xil plitka ustida bo'lsangiz, ``false`` ni qaytaring, chunki siz oldinga siljiysiz.
 - Faqat musbat butun son kiritilishini kuting
+---
+
+# [5. Right Shift by Division](https://edabit.com/challenge/ALGbgMWLuEdrh22fB)
+## The right shift operation is similar to **floor division by powers of two.**
+### Sample calculation using the right shift operator ( ``>>`` ):
+```js
+80 >> 3 = floor(80/2^3) = floor(80/8) = 10
+-24 >> 2 = floor(-24/2^2) = floor(-24/4) = -6
+-5 >> 1 = floor(-5/2^1) = floor(-5/2) = -3
+```
+
+### Write a function that **mimics** (without the use of >>) the right shift operator and returns the result from the two given integers.
+
+### Examples
+```js
+shiftToRight(80, 3) ➞ 10
+
+shiftToRight(-24, 2) ➞ -6
+
+shiftToRight(-5, 1) ➞ -3
+
+shiftToRight(4666, 6) ➞ 72
+
+shiftToRight(3777, 6) ➞ 59
+
+shiftToRight(-512, 10) ➞ -1
+```
+### Notes
+- There will be no negative values for the second parameter ``y``.
+- This challenge is more like recreating of the right shift operation, thus, **the use of the operator directly is prohibited.**
+- Alternatively, you can solve this challenge via recursion.
+- A **recursive** version of this challenge can be found via this [link](https://edabit.com/challenge/CtxRSuGhry3XK7wjh).
+### Resources
+- [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+- [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
+- [Bitwise Operators](https://www.w3schools.com/js/js_bitwise.asp)
+
+#### *Tarjima*
+# 5. Bo'lim bo'yicha o'ngga siljish
+## To'g'ri **siljish jarayoni ikki kuch bilan qavat bo'linishiga** o'xshaydi
+### To'g'ri siljish operatori ( ``>>`` ) yordamida hisoblash namunasi:
+```js
+80 >> 3 = floor(80/2^3) = floor(80/8) = 10
+-24 >> 2 = floor(-24/2^2) = floor(-24/4) = -6
+-5 >> 1 = floor(-5/2^1) = floor(-5/2) = -3
+```
+### O'ngga siljish operatorini taqlid qiladigan (>> dan foydalanmasdan) va berilgan ikkita butun sondan natijani qaytaradigan funksiya yozing.
+
+### Misollar
