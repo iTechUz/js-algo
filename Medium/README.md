@@ -79,7 +79,7 @@ f3() ➞ ""
 
 #### _Tarjima_
 
-# 2. Ortiqcha funksiya
+# 3. Ortiqcha funksiya
 
 ## `str` **satrini qabul qiladigan va qaytaruvchi funksiyani qaytaruvchi ortiqcha funksiyani yozing**
 
@@ -122,7 +122,7 @@ REGEXP.test("") ➞ true
 - You can find the solution in the **Resources** tab.
 
 #### *Tarjima*
-# 3. RegEx mashqi: bo'sh string
+# 4. RegEx mashqi: bo'sh string
 ### Agar siz ushbu **RegEx** seriyasini I dan XXII gacha tugatgan bo'lsangiz, unda siz MDN ning [muntazam iboralar maxsus belgilar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters) bo'yicha barcha hujjatlari bilan tanishgansiz. To'plamlarimni o'tkazib yuborgan bo'lsangiz, profilimdagi **Basic Reg Ex** ostidan tekshirishingiz mumkin. Seriyaning keyingi qismi siz o'rgangan narsalarni mustahkamlashga yordam beradi. Vaqtni tejash maqsadida men bu yerga joylashtirish uchun **muntazam ifoda** mashqlarini topish uchun internetni qidiraman.
 
 ### Siz shunday bo'sh stringni sinab ko'rishingiz mumkin:
@@ -161,7 +161,7 @@ possibleBonus(5, 3) ➞ false
 - [Less than or equal (<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Less_than_or_equal#:~:text=The%20less%20than%20or%20equal,right%20operand%2C%20and%20false%20otherwise.)
 #### *Tarjima*
 
-# 4. Plitkalar bilan ishlash tatikasi
+# 5. Plitkalar bilan ishlash tatikasi
 
 ### Stol o'yinida bir parcha olti qirrali zarga tashlangan raqamga qarab 1-6 plitka oldinga siljishi mumkin. Agar siz o'z buyumingizni boshqa o'yinchining **buyumiga o'xshatib qo'ysangiz**, ikkalangiz ham bonus olasiz.
 
