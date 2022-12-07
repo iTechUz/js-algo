@@ -102,7 +102,7 @@ f3() ➞ ""
 
 ---
 
-# 3. RegEx Exercise: An empty string
+# 4. RegEx Exercise: An empty string
 
 #### #regex
 
@@ -122,7 +122,7 @@ REGEXP.test("") ➞ true
 - You can find the solution in the **Resources** tab.
 
 #### *Tarjima*
-# 4. RegEx mashqi: bo'sh string
+# 5. RegEx mashqi: bo'sh string
 ### Agar siz ushbu **RegEx** seriyasini I dan XXII gacha tugatgan bo'lsangiz, unda siz MDN ning [muntazam iboralar maxsus belgilar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters) bo'yicha barcha hujjatlari bilan tanishgansiz. To'plamlarimni o'tkazib yuborgan bo'lsangiz, profilimdagi **Basic Reg Ex** ostidan tekshirishingiz mumkin. Seriyaning keyingi qismi siz o'rgangan narsalarni mustahkamlashga yordam beradi. Vaqtni tejash maqsadida men bu yerga joylashtirish uchun **muntazam ifoda** mashqlarini topish uchun internetni qidiraman.
 
 ### Siz shunday bo'sh stringni sinab ko'rishingiz mumkin:
@@ -139,7 +139,7 @@ REGEXP.test("") ➞ true
 - Yechimni **Resurslar** yorlig'ida topishingiz mumkin.
 ---
 
-# 4. Tile Teamwork Tactics
+# 6. Tile Teamwork Tactics
 #### ``#conditions #language_fundamentals #numbers #validation``
 ### In a board game, a piece may advance 1-6 tiles forward depending on the number rolled on a six-sided dice. If you advance your piece onto the **same tile** as another player's piece, both of you earn a bonus.
 ### Can you reach your friend's tile number in the next roll? Create a function that takes your position ``a`` and your friend's position ``b`` and returns a boolean representation of whether it's possible to earn a bonus on any dice roll.
@@ -161,7 +161,7 @@ possibleBonus(5, 3) ➞ false
 - [Less than or equal (<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Less_than_or_equal#:~:text=The%20less%20than%20or%20equal,right%20operand%2C%20and%20false%20otherwise.)
 #### *Tarjima*
 
-# 5. Plitkalar bilan ishlash tatikasi
+# 7. Plitkalar bilan ishlash tatikasi
 
 ### Stol o'yinida bir parcha olti qirrali zarga tashlangan raqamga qarab 1-6 plitka oldinga siljishi mumkin. Agar siz o'z buyumingizni boshqa o'yinchining **buyumiga o'xshatib qo'ysangiz**, ikkalangiz ham bonus olasiz.
 
