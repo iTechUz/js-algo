@@ -137,3 +137,44 @@ REGEXP.test("") ➞ true
 ```
 ### Eslatmalar
 - Yechimni **Resurslar** yorlig'ida topishingiz mumkin.
+---
+
+# 4. Tile Teamwork Tactics
+#### ``#conditions #language_fundamentals #numbers #validation``
+### In a board game, a piece may advance 1-6 tiles forward depending on the number rolled on a six-sided dice. If you advance your piece onto the **same tile** as another player's piece, both of you earn a bonus.
+### Can you reach your friend's tile number in the next roll? Create a function that takes your position ``a`` and your friend's position ``b`` and returns a boolean representation of whether it's possible to earn a bonus on any dice roll.
+### Examples
+```js
+possibleBonus(3, 7) ➞ true
+
+possibleBonus(1, 9) ➞ false
+
+possibleBonus(5, 3) ➞ false
+```
+### Notes
+- You cannot move backward (which is why example #3 doesn't work).
+- If you are already on the same tile, return ``false``, as you would be advancing away.
+- Expect only positive integer inputs.
+### Resources
+- [Logical AND (&&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+- [Greater than or equal (>=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than_or_equal)
+- [Less than or equal (<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Less_than_or_equal#:~:text=The%20less%20than%20or%20equal,right%20operand%2C%20and%20false%20otherwise.)
+#### *Tarjima*
+
+# 4. Plitkalar bilan ishlash tatikasi
+
+### Stol o'yinida bir parcha olti qirrali zarga tashlangan raqamga qarab 1-6 plitka oldinga siljishi mumkin. Agar siz o'z buyumingizni boshqa o'yinchining **buyumiga o'xshatib qo'ysangiz**, ikkalangiz ham bonus olasiz.
+
+### Keyingi rolikda do'stingizning plitka raqamiga kira olasizmi? Sizning ``a`` pozitsiyangizni va do'stingizning ``b`` o'rnini egallaydigan funksiya yarating va istalgan zarda bonus olish mumkinmi yoki yo'qligini ko'rsatuvchi mantiqiy ifodani qaytaring.
+### Misollar
+```js
+possibleBonus(3, 7) ➞ true
+
+possibleBonus(1, 9) ➞ false
+
+possibleBonus(5, 3) ➞ false
+```
+### Eslatmalar
+- Siz orqaga harakat qila olmaysiz (shuning uchun №3 misol ishlamaydi).
+- Agar siz allaqachon bir xil plitka ustida bo'lsangiz, ``false`` ni qaytaring, chunki siz oldinga siljiysiz.
+- Faqat musbat butun son kiritilishini kuting
