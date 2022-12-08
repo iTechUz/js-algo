@@ -227,3 +227,26 @@ shiftToRight(-512, 10) ➞ -1
 ### O'ngga siljish operatorini taqlid qiladigan (>> dan foydalanmasdan) va berilgan ikkita butun sondan natijani qaytaradigan funksiya yozing.
 
 ### Misollar
+```js
+shiftToRight(80, 3) ➞ 10
+
+shiftToRight(-24, 2) ➞ -6
+
+shiftToRight(-5, 1) ➞ -3
+
+shiftToRight(4666, 6) ➞ 72
+
+shiftToRight(3777, 6) ➞ 59
+
+shiftToRight(-512, 10) ➞ -1
+```
+### Eslatmalar
+- Ikkinchi parametr ``y`` uchun manfiy qiymatlar bo'lmaydi
+- Bu qiyinchilik ko'proq to'g'ri siljish ishini qayta yaratishga o'xshaydi, shuning uchun operatordan to'g'ridan-to'g'ri foydalanish taqiqlanadi
+- Shu bilan bir qatorda, bu muammoni rekursiya orqali hal qilishingiz mumkin
+- Ushbu chaqiruvning rekursiv versiyasini ushbu [havola](https://edabit.com/challenge/CtxRSuGhry3XK7wjh) orqali topish mumkin
+---
+
+# 6. Perimeters with a Catch
+#### ``#conditions #geometry #logic #math #numbers``
+### Write a function that takes a number and returns the perimeter of either a circle or a square. The input will be in the form (letter ``1``, number ``num``) where the letter will be either ``"s"`` for *square*, or ``"c"`` for *circle*, and the number will be the side of the square or the radius of the circle.
