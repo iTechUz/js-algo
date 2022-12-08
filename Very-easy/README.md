@@ -1,4 +1,150 @@
-# 5. Convert Age to Days
+# [1. Return the Sum of Two Numbers](https://edabit.com/challenge/3LpBLgNRyaHMvNb4j)
+
+### **Create a function that takes two numbers as arguments and returns their sum.**
+
+### Examples
+
+```js
+addition(3, 2) ➞ 5
+addition(-3, -6) ➞ -9
+addition(7, 3) ➞ 10
+``` 
+
+#### Notes
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the [Resorces](https://github.com/iTechUz/daily-algo/tree/main/21-11-22#resorces) tab.
+ 
+#### Resorces
+1. [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+2. [Return Statement](https://www.w3schools.com/jsref/jsref_return.asp)
+3. [Add Two Numbers](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-two-numbers-with-javascript/)
+
+*No solution available*
+
+***Tarjima:***
+
+**Ikki raqamni argument sifatida qabul qiladigan va ularning yig‘indisini qaytaruvchi funksiya yarating.**
+
+#### Eslatmalar
+- ```return```  bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz, [Resorces](https://github.com/iTechUz/daily-algo/tree/main/21-11-22#resorces) bo'limidan izlab ko'ring.
+
+*Yechim mavjud emas*
+
+---
+# [2. Convert Minutes into Seconds](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
+
+### Write a function that takes an integer minutes and converts it to seconds
+
+ ### Examples
+ ```js
+convert(5) ➞ 300
+convert(3) ➞ 180
+convert(2) ➞ 120
+```
+
+### Notes
+
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the Resources tab.
+
+### Resources
+
+1. Convert Minutes to Seconds](https://stackoverflow.com/questions/8907764/convert-minutes-to-seconds)
+2. [Conversion of Minutes into Seconds](https://www.math-only-math.com/conversion-of-minutes-into-seconds.html)
+3. [Convert Hours to Minutes, Minutes to Seconds and Date to Milliseconds](https://www.tutsmake.com/javascript-convert-hours-to-minutesminutes-to-secondsdate-to-milliseconds/)
+*Tarjima*
+
+# 2. Daqiqalarni soniyalarga aylantiring
+### Butun daqiqalarni oladigan va uni soniyalarga aylantiruvchi funksiyani yozing.
+
+### Misollar
+ ```js
+convert(5) ➞ 300
+convert(3) ➞ 180
+convert(2) ➞ 120
+```
+### Eslatmalar
+- ``return`` bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz **Resurslar** bo'limidan yordam izlab ko'ring
+
+---
+# [3. Return the Next Number from the Integer Passed](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
+
+### Create a function that takes a number as an argument, increments the number by +1 and returns the result
+### Examples
+
+```js
+addition(0) ➞ 1
+addition(9) ➞ 10
+addition(-3) ➞ -2
+```
+### Notes
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the **Resources** tab.
+
+### Resorces
+1. [Area of a Triangle](https://www.mathgoodies.com/lessons/vol1/area_triangle)
+2. [JavaScript return Statement](https://www.w3schools.com/jsref/jsref_return.asp)
+3. [Area of a Triangle](https://www.youtube.com/watch?v=xz6gBA0M9FY)
+*Tarjima*
+# 3. Butun son kiritganda o'sha sonni keyingi sonni qaytarsin
+
+### Sonni argument sifatida qabul qilsin va o'sha songa 1 qo'shib qaytarsin
+
+### Misollar
+
+```js
+addition(0) ➞ 1
+addition(9) ➞ 10
+addition(-3) ➞ -2
+```
+
+### Notes
+- ```return```  bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz, **Resources** bo'limidan izlab ko'ring.
+
+---
+# [4. Area of a Triangle](https://edabit.com/challenge/3CaszbdZYGN4otQD8)
+
+### Write a function that takes the base and height of a triangle and return its area
+
+### Examples
+
+```js
+triArea(3, 2) ➞ 3
+triArea(7, 4) ➞ 14
+triArea(10, 10) ➞ 50
+```
+### Notes
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the **Resources** tab.
+
+
+### Resorces
+1. [Increment Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_())
+2. [How to Increment a Number](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/increment-a-number-with-javascript/)
+3. [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
+
+---
+
+***Tarjima***
+
+## 4. Uchburchakning yuzi
+### Uchburchakning bo'yi va enini qabul qiladigan va uchburchakni yuzini qaytaruvchi funksiya yarating
+
+### Misollar
+```js
+triArea(3, 2) ➞ 3
+triArea(7, 4) ➞ 14
+triArea(10, 10) ➞ 50
+```
+
+### Eslatmalar
+- ```return```  bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz, **Resources** bo'limidan izlab ko'ring.
+---
+# [5. Convert Age to Days](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
 
 ### Create a function that takes the age in years and returns the age in days
 
@@ -21,11 +167,11 @@ calcAge(20) ➞ 7300
 2. [Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp)
 3. [Date Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-***Tarjima***
+*Tarjima*
 
-## Yoshni kunlarga aylantiring
+# 5. Yoshni kunlarga aylantiring
 
-**Yoshni yillar bilan oladigan va yoshni kunlarda qaytaradigan funksiya yarating.**
+### Yoshni yillar bilan oladigan va yoshni kunlarda qaytaradigan funksiya yarating
 
 ### Misollar
 
@@ -36,12 +182,12 @@ calcAge(0) ➞ 0
 
 calcAge(20) ➞ 7300
 ```
-#### Eslatmalar !!!
+### Eslatmalar !!!
 - Ushbu mashq uchun yil uzunligi sifatida 365 kundan foydalaning.
 - O'tgan tug'ilgan kun va hozir o'rtasidagi kabisa yillar va kunlarga e'tibor bermang
 - Faqat **musbat, butun son** qaytarsin
 
-# 6. Buggy Code (Part 1)
+# [6. Buggy Code (Part 1)](https://edabit.com/challenge/j7yQbF3J3rToHsDBP)
 
 ### Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
 
@@ -82,7 +228,7 @@ cubes(10) ➞ 1000
 - HAR SO'ZNI DIQQAT BILAN O'QING, XARAKTER BO'YICHA!
 - Bu muammo haqida chuqur o'ylash shart emas; sababi bu mashq unchalik ham qiyin emas
 
-# 7. Return the First Element in an Array
+# [7. Return the First Element in an Array](https://edabit.com/challenge/QaApgtePE6QrCZ64o)
 
 ### Create a function that takes an array containing only numbers and return the first element.
 
@@ -120,3 +266,241 @@ getFirstValue([-500, 0, 50]) ➞ -500
 
 #### Eslatmalar
 - Massivdagi birinchi element har doim 0 indeksiga ega.
+---
+
+# [8. Power Calculator](https://edabit.com/challenge/wAdE9te55cowBLcPs)
+
+### Create a function that takes voltage and current and returns the calculated power.
+
+### Examples
+
+```js
+circuitPower(230, 10) ➞ 2300
+
+circuitPower(110, 3) ➞ 330
+
+circuitPower(480, 20) ➞ 9600
+```
+
+### Notes
+- Requires basic calculation of electrical circuits (see Resources for info).
+
+### Resorsec
+1. [Arithmetic Operators](https://www.w3schools.com/js/js_arithmetic.asp)
+2. [Ohms Law and Power](https://www.electronics-tutorials.ws/dccircuits/dcp_2.html)
+3. [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
+
+***Tarjima***
+
+# 8. Quvvat hisoblagichi
+
+### Kuchlanishni va oqimni qabul qiladigan va hisoblangan quvvatni qaytaradigan funksiya yarating.
+
+### Misollar
+```js
+circuitPower(230, 10) ➞ 2300
+
+circuitPower(110, 3) ➞ 330
+
+circuitPower(480, 20) ➞ 9600
+```
+
+### Eslatmalar
+- Elektr davrlarini asosiy hisoblashni talab qiladi (ma'lumot uchun Resurslarga qarang).
+
+# [9. Convert Hours into Seconds](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+
+### Write a function that converts ```hours``` into seconds.
+
+### Examples
+
+```js
+howManySeconds(2) ➞ 7200
+
+howManySeconds(10) ➞ 36000
+
+howManySeconds(24) ➞ 86400
+```
+### Notes
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the [Resorces](https://github.com/iTechUz/daily-algo/tree/main/21-11-22#resorces) tab.
+
+### Resorsec
+1. [How many seconds are in an hour?](https://www.rapidtables.com/calc/time/seconds-in-hour.html)
+2. [Conversion of Hours into Seconds](https://www.math-only-math.com/conversion-of-hours-into-seconds.html)
+3. [JavaScript Arithmetic Operators](https://www.w3schools.com/js/js_arithmetic.asp)
+
+*Tarjima*
+
+# 9. Soatlarni soniyalarga aylantiring
+
+### Soatlarni soniyalarga aylantiruvchi funksiyani yozing
+
+### Misollar
+```js
+howManySeconds(2) ➞ 7200
+
+howManySeconds(10) ➞ 36000
+
+howManySeconds(24) ➞ 86400
+```
+
+### Eslatmalar
+- Bir daqiqada 60 soniya, bir soatda 60 daqiqa
+-  ```return```  bayonotidan foydalanishni unutmang
+---
+
+# [10. Maximum Edge of a Triangle](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
+
+### **Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.**
+
+### Examples
+```js
+nextEdge(8, 10) ➞ 17
+nextEdge(5, 7) ➞ 11
+nextEdge(9, 2) ➞ 10
+```
+
+#### Notes
+- ```(side1 + side2) - 1``` = maximum range of third edge. 
+- The side lengths of the triangle are positive integers.
+- Don't forget to ```return``` the result.
+
+#### Resources
+1. [The JavaScript Arithmetic Operators](https://flaviocopes.com/javascript-math-operators/)
+2. [Find Possible Lengths of Third Side in a Triangle(YouTube)](https://www.youtube.com/watch?v=VW0UM88eLYY)
+3. [Minimum and Maximum Possible Length of the Third Side of a Triangle](https://www.geeksforgeeks.org/minimum-and-maximum-possible-length-of-the-third-side-of-a-triangle/)
+
+***Tarjima***
+# 10. Uchburchakning maksimal qirrasi
+**Uchburchakning uchinchi chetining maksimal diapazonini topadigan funksiya yarating, bunda yon uzunliklari butun sonlardan iborat.**
+### Misollar
+```js
+nextEdge(8, 10) ➞ 17
+nextEdge(5, 7) ➞ 11
+nextEdge(9, 2) ➞ 10
+```
+
+#### Eslatmalar
+- ```(side1 + side2) - 1``` = uchinchi chekkaning maksimal diapazoni.
+- Uchburchakning yon uzunliklari musbat va butun sonlardir.
+- ```return``` bayonotidan foydalanishni unutmang
+---
+
+# [11. Return the Remainder from Two Numbers](https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk)
+### **There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.**
+### Examples
+```js
+remainder(1, 3) ➞ 1
+remainder(3, 4) ➞ 3
+remainder(-9, 45) ➞ -9
+remainder(5, 5) ➞ 0
+```
+#### Notes
+- The tests only use positive and negative integers.
+- Don't forget to ```return``` the result.
+- If you get stuck on a challenge, find help in the **Resources** tab.
+
+***Tarjima***
+
+# 11. Ikki raqamdan qolgan qismini qaytaring
+**JavaScript-da bo'luv operatorining qolgan qismini ta'minlay oladigan bitta operator mavjud. Parametr sifatida ikkita raqam uzatiladi. Birinchi parametr ikkinchi parametrga bo'lingan holda qoldiq, ehtimol nolga teng bo'ladi. Bu qiymatni qaytaring.**
+### Misollar
+```js
+remainder(1, 3) ➞ 1
+remainder(3, 4) ➞ 3
+remainder(-9, 45) ➞ -9
+remainder(5, 5) ➞ 0
+```
+#### Eslatmalar
+- Sinovlar faqat musbat va manfiy sonlardan foydalanadi.
+- ```return``` bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz, **Resources** bo'limidan yordam izlab ko'ring.
+---
+
+# [12. Find the Perimeter of a Rectangle](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
+**Create a function that takes** ``length`` **and** ```width``` **and finds the perimeter of a rectangle.**
+### Examples
+```js
+findPerimeter(6, 7) ➞ 26
+findPerimeter(20, 10) ➞ 60
+findPerimeter(2, 9) ➞ 22
+```
+
+#### Notes:
+- Don't forget to ``return`` the result.
+- If you're stuck, find help in the **Resources** tab
+#### Resources
+1. [How to Find the Perimeter of a Rectangle](https://www.varsitytutors.com/basic_geometry-help/how-to-find-the-perimeter-of-a-rectangle)
+2. [Perimeter of a Rectangle Formula](https://byjus.com/maths/perimeter-of-rectangle/)
+3. [How to find the perimeter of a rectangle?](https://www.mathopenref.com/rectangleperimeter.html)
+---
+***Tarjima***
+# 12. To'rtburchakning perimetrini toping
+**To'rtburchakning** ``length`` **va** ``width`` **qabul qiladigan funksiya yarating**
+### Misollar
+```js
+findPerimeter(6, 7) ➞ 26
+findPerimeter(20, 10) ➞ 60
+findPerimeter(2, 9) ➞ 22
+```
+#### Eslatmalar:
+- ```return```  bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz, **Resources** bo'limidan izlab ko'ring.
+---
+
+# [13. Return Something to Me!](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
+**Write a function that returns the string** ``"something"`` **joined with a space** ``" "`` **and the given argument** ``a``
+### Examples
+```js
+giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+giveMeSomething("something") ➞ "something something"
+```
+#### Notes
+- Assume an input is given.
+#### Resources
+1. [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+2. [String concat() Method](https://www.w3schools.com/jsref/jsref_concat_string.asp)
+3. [Arrow functions](https://www.w3schools.com/js/js_arrow_function.asp)
+---
+# 13. Menga biror narsani qaytaring!
+**Bo'sh joy bilan birlashtirilgan** ``"something"`` **qatorini va berilgan** ``a`` **argumentini qaytaruvchi funktsiyani yozing.**
+### Misollar
+```js
+giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+giveMeSomething("something") ➞ "something something"
+```
+#### Eslatmalar
+- Biron nima kiritilgan deb faraz qiling
+---
+# [14. Correct the Mistakes](https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i)
+**Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.**
+### Examples
+```js
+squared(5) ➞ 25
+squared(9) ➞ 81
+squared(100) ➞ 10000
+```
+#### Notes
+- **READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!**
+- Don't overthink this challenge; it's not supposed to be hard.
+#### Rescources
+1. [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
+2. [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+3. [JavaScript Length](https://www.tutorialspoint.com/javascript/string_length.htm)
+---
+***Tarjima***
+# 14. Xatolarni tuzating
+**Ushbu sinovdan o'tish uchun kod oralig'idagi kodni tuzating (faqat sintaktik xatolar). Funktsiya nima qilishi kerakligi haqida tasavvurga ega bo'lish uchun quyidagi misollarni ko'rib chiqing.**
+### Misollar
+```js
+squared(5) ➞ 25
+squared(9) ➞ 81
+squared(100) ➞ 10000
+```
+#### Eslatmalar
+- **HAR SO'ZNI DIQQAT BILAN O'QING, XARAKTER BO'YICHA!**
+- Bu muammo haqida o'ylamang; bu qiyin bo'lmasa kerak :)
+---
