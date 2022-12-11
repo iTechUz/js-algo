@@ -706,6 +706,225 @@ printArray(6) ➞ [1, 2, 3, 4, 5, 6]
 ---
 
 
+# [21. Buggy Code (Part 7)](https://edabit.com/challenge/CCGBig9eRPFzAHv46)
+
+***Mubashir wants to swap two given numbers!***
+
+*It is not returning the right values. Can you help him fix it?*
+
+```js
+a = 100
+b = 200
+a, b = swap(a, b)
+print(a, b) // Should print out "200, 100", but the function prints out "100, 100"
+```
+
+
+
+### Examples
+```js
+swap(100, 200) ➞ [200, 100]
+
+swap(44, 33) ➞ [33, 44]
+
+swap(21, 12) ➞ [12, 21]
+```
+
+
+
+### Notes
+- N/A
+
+
+### Rescources
+
+
+- [How to Swap Two Array Elements](https://flaviocopes.com/javascript-swap-array-elements/)
+- [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [Bitwise XOR (^)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR)
+
+
+---
+***tajrima***
+
+---
+
+
+
+# [22. The Farm Problem](https://edabit.com/challenge/8Qg78sf5SNDEANKti)
+
+**In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:**
+
+- ``chickens`` = 2 legs
+- ``cows`` = 4 legs
+- ``pigs`` = 4 legs
+
+**The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.**
+
+### Examples
+
+```js
+animals(2, 3, 5) ➞ 36
+
+animals(1, 2, 3) ➞ 22
+
+animals(5, 2, 8) ➞ 50
+```
+
+### Notes
+
+- Don't forget to ``return`` the result.
+- The order of ``animals passed is animals(chickens, cows, pigs)``.
+- Remember that the farmer wants to know the ***total number of legs*** and not the total number of animals.
+
+
+
+### Rescources
+
+- [Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+- [Operators in JavaScript](https://javascript.info/operators)
+- [There are 63 animals and 148 legs. How many cows are there on the farm?](https://www.wyzant.com/resources/answers/36193/there_are_cows_chickens_in_a_farm_yard_there_are_63_animals_and_148_legs_how_many_cows_are_there_in_the_farm_yard)
+
+---
+***tajrima***
+
+---
+
+
+# [23. Using the "&&" Operator](https://edabit.com/challenge/vJCZmgvvDjehyDcDK)
+
+
+**JavaScript has a logical operator ``&&``. The ``&&`` operator takes two boolean values, and returns ``true`` if both values are ``true``.**
+
+**Consider ``a && b``:**
+
+
+- ``a`` is checked if it is ``true`` or ``false``.
+- If ``a`` is ``false``, ``false`` is returned.
+- ``b`` is checked if it is ``true`` or ``false``.
+- If ``b ``is ``false``, ``false`` is returned.
+- Otherwise, ``true`` is returned (as both ``a`` and ``b`` are therefore ``true`` ).
+
+
+**The ``&& ``operator will only return ``true`` for ``true && true``.**
+
+**Make a function using the ``&&`` operator.**
+
+### Examples
+```js
+and(true, false) ➞ false
+
+and(true, true) ➞ true
+
+and(false, true) ➞ false
+
+and(false, false) ➞ false
+```
+
+
+### Notes
+
+- N/A
+
+### Rescources
+
+- [Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+- [Arrow Function](https://www.w3schools.com/Js/js_arrow_function.asp)
+- [Logical Operators](https://www.w3schools.com/jsref/jsref_operators.asp)
+
+
+---
+***tajrima***
+
+---
+
+
+
+# [24. Are the Numbers Equal?](https://edabit.com/challenge/QSnaSH5S3oxZkwcNc)
+
+
+**Create a function that returns ``true`` when ``num1`` is equal to ``num2``; otherwise return ``false``.**
+
+
+### Examples
+
+```js
+isSameNum(4, 8) ➞ false
+
+isSameNum(2, 2) ➞  true
+
+isSameNum(2, "2") ➞ false
+```
+
+### Notes
+- Don't forget to return the result.
+
+
+### Rescources
+
+- [Double Equals vs. Triple Equals in JavaScript](https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a)
+- [Equality Comparisons and Sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp)
+
+
+
+---
+***tajrima***
+
+---
+
+
+
+# [25. Football Points](https://edabit.com/challenge/GwvwXHWCThHZrR7xu)
+
+**Create a function that takes the number of ``wins``, ``draws`` and ``losses`` and calculates the number of points a football team has obtained so far.**
+
+- ``wins`` get ``3`` points
+- ``draws`` get ``1`` point
+- ``losses`` get 0 points
+
+### Examples
+
+```js
+footballPoints(3, 4, 2) ➞ 13
+
+footballPoints(5, 0, 2) ➞ 15
+
+footballPoints(0, 0, 1) ➞ 0
+```
+
+### Notes
+- Inputs will be numbers greater than or equal to ``0``.
+
+
+### Rescources
+
+- [JavaScript Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
+- [Using Math Expressions in JavaScript](https://www.khanacademy.org/computing/computer-programming/programming/resizing-with-variables/a/using-math-expressions-in-js)
+- [Soccer Scoring Rules](https://www.rookieroad.com/soccer/rules-and-regulations/scoring-rules/)
+
+
+
+
+---
+***tajrima***
+
+---
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
