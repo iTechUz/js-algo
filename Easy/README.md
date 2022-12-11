@@ -195,3 +195,47 @@ Gugurt uylari(87) ➞ 436
 - [Matchstick Patterns](https://www.transum.org/Maths/Activity/Matchstick_Patterns/)
 - [Shartli operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 - [JavaScript Math Object](https://www.w3schools.com/Js/js_math.asp)
+
+----------
+# 4. Left Shift by Powers of Two
+
+`#bit_operations  #math #numbers`
+
+The left shift operation is similar to multiplication by powers of two.
+
+Sample calculation using the left shift operator (<<):
+```js
+10 << 3 = 10 * 2^3 = 10 * 8 = 80
+-32 << 2 = -32 * 2^2 = -32 * 4 = -128
+5 << 2 = 5 * 2^2 = 5 * 4 = 20
+```
+Write a function that mimics (without the use of <<) the left shift operator and returns the result from the two given integers.
+
+**Examples**
+```js
+shiftToLeft(5, 2) ➞ 20
+
+shiftToLeft(10, 3) ➞ 80
+
+shiftToLeft(-32, 2) ➞ -128
+
+shiftToLeft(-6, 5) ➞ -192
+
+shiftToLeft(12, 4) ➞ 192
+
+shiftToLeft(46, 6) ➞ 2944
+```
+
+**Notes**
+
+- There will be no negative values for the second parameter y.
+- This challenge is more like recreating of the left shift operation, thus, the use of the operator directly is prohibited.
+- Alternatively, you can solve this challenge via recursion.
+- A recursive version of this challenge can be found via this link.
+
+**Resources**
+- [Exponentiation (**)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation#:~:text=The%20exponentiation%20operator%20(%20**%20)%20returns,also%20accepts%20BigInts%20as%20operands.)
+- [Math.pow()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow#:~:text=The%20Math.-,pow()%20function%20returns%20the%20base%20to%20the%20exponent%20power,always%20use%20it%20as%20Math.&text=If%20the%20base%20is%20negative,integer%2C%20the%20result%20is%20NaN.)
+- [Left shift (<<)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Left_shift)
+- -------
+  
