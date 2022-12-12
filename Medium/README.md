@@ -247,6 +247,218 @@ shiftToRight(-512, 10) ➞ -1
 - Ushbu chaqiruvning rekursiv versiyasini ushbu [havola](https://edabit.com/challenge/CtxRSuGhry3XK7wjh) orqali topish mumkin
 ---
 
+
+# 6  Perimeters with a Catch
+
+Write a function that takes a number and returns the perimeter of either a circle or a square. The input will be in the form (letter `l`, number `num`) where the letter will be either `"s" `for square, or `"c" `for circle, and the number will be the side of the square or the radius of the circle.
+
+Use the following formulas:
+```js
+Perimeter of a square: 4 * side.
+Perimeter of a circle: 6.28 * radius.
+```
+The catch is you can only use `arithmetic `or `comparison operators`, which means:
+
+- No if... else statements.
+- No objects.
+- No arrays.
+- No formatting methods, etc.
+- The goal is to write a short, [branch-free ](https://en.wikipedia.org/wiki/Branch_(computer_science)#Branch-free_code)piece of code.
+
+**Examples**
+```js
+perimeter("s", 7) ➞ 28
+
+perimeter("c", 4) ➞ 25.12
+
+perimeter("c", 9) ➞ 56.52
+```
+**Notes**
+No rounding is needed.
+
+
+## tarjima 
+
 # 6. Perimeters with a Catch
 #### ``#conditions #geometry #logic #math #numbers``
 ### Write a function that takes a number and returns the perimeter of either a circle or a square. The input will be in the form (letter ``1``, number ``num``) where the letter will be either ``"s"`` for *square*, or ``"c"`` for *circle*, and the number will be the side of the square or the radius of the circle.
+
+Quyidagi formulalardan foydalaning:
+
+```js
+Perimeter of a square: 4 * side.
+Perimeter of a circle: 6.28 * radius.
+```
+
+Gap shundaki, siz faqat `arifmetik` yoki `taqqoslash operatorlari` dan foydalanishingiz mumkin, ya'ni:
+
+- Yo'q, agar ... boshqa bayonotlar.
+- Hech narsa yo'q.
+- Massivlar yo'q.
+- Formatlash usullari yo'q va hokazo.
+- Maqsad qisqa, [filialsiz] yozish kod qismi.
+
+**Misolar**
+
+```js
+perimeter("s", 7) ➞ 28
+
+perimeter("c", 4) ➞ 25.12
+
+perimeter("c", 9) ➞ 56.52
+```
+**eslatma**
+
+Yaxlitlash kerak emas.
+
+
+# 7 Find Number of Digits in Number**
+
+Create a function that will return an integer number corresponding to the amount of digits in the given integer` num`.
+
+**Examples**
+
+```js
+num_of_digits(1000) ➞ 4
+
+num_of_digits(12) ➞ 2
+
+num_of_digits(1305981031) ➞ 10
+
+num_of_digits(0) ➞ 1
+```
+**Notes**
+
+    Try to solve this challenge without using strings!
+
+
+## Tarjima
+
+# 7 Raqamdagi raqamlar sonini toping
+
+Berilgan tamsayı` num`dagi raqamlar miqdoriga mos butun sonni qaytaradigan funksiya yarating.
+
+**Misollar**
+
+```js
+num_of_digits(1000) ➞ 4
+
+num_of_digits(12) ➞ 2
+
+num_of_digits(1305981031) ➞ 10
+
+num_of_digits(0) ➞ 1
+```
+**eslatma**
+
+   Ushbu muammoni simlardan foydalanmasdan hal qilishga harakat qiling!
+/////////////////////////////////////////////////////////////////////////////////
+  # 8 Burglary Series (04): Add its Name
+
+Given three arguments ⁠— an object `obj` of the stolen items, the pets `name` and a `value `⁠— return an object with that name and value in it (as key-value pairs).
+
+**Examples**
+```js
+addName({}, "Brutus", 300) ➞ { Brutus: 300 }
+
+addName({ piano: 500 }, "Brutus", 400) ➞ { piano: 500, Brutus: 400 }
+
+addName({ piano: 500, stereo: 300 }, "Caligula", 440) ➞ { piano: 500, stereo: 300, Caligula: 440 }
+```
+**Notes**
+
+The value argument will be a number.
+
+# tarjimasi
+
+
+# 8 O'g'rilik seriyasi (04): Uning nomini qo'shing
+
+Uchta argumentni hisobga olgan holda - o'g'irlangan narsalarning "obj" ob'ekti, uy hayvonlari "nomi" va "qiymat" - bu nom va undagi qiymatga ega ob'ektni qaytaradi (kalit-qiymat juftlari sifatida).
+
+**Misollar**
+```js
+addName({}, "Brutus", 300) ➞ { Brutus: 300 }
+
+addName({ piano: 500 }, "Brutus", 400) ➞ { piano: 500, Brutus: 400 }
+
+addName({ piano: 500, stereo: 300 }, "Caligula", 440) ➞ { piano: 500, stereo: 300, Caligula: 440 }
+```
+**Eslatma**
+
+Qiymat argumenti raqam bo'ladi.
+
+////////////////////////////////////////////////////////////////////
+
+# 9 Derivative of a Function
+
+Create a function that takes numbers `b `and `m` as arguments and returns the derivative of the function `f(x)=x^b` with respect to `x `evaluated at `x=m,` where `b` and `m `are constants.
+
+**Examples**
+```js
+derivative(1, 4) ➞ 1
+
+derivative(3, -2) ➞ 12
+
+derivative(4, -3) ➞ -108
+```
+**Notes**
+
+`^ `in the context of this challenge means "to the power of", also known as the "exponent" operator.
+
+# 9 Funktsiyaning hosilasi
+
+
+Argument sifatida `b`va `m` raqamlarini oladigan va `x=m`da baholangan `x`ga nisbatan `f(x)=x^b` funksiyaning hosilasini qaytaradigan funksiya yarating, bunda `b` va `m ` doimiylardir.
+
+**Misollar**
+```js
+derivative(1, 4) ➞ 1
+
+derivative(3, -2) ➞ 12
+
+derivative(4, -3) ➞ -108
+```
+**Eslatma**
+
+`^ `bu chaqiriq kontekstida "kuchga" degan ma'noni anglatadi, shuningdek, "ko'rsatkich" operatori sifatida ham tanilgan.
+
+//////////////////////////////////////////////////
+
+# 10 Which Generation Are You?
+
+Try finding your ancestors and offspring with code.
+
+Create a function that takes a number `x `and a character `y `(`"m" `for male, `"f"` for female), and returns the `name of an ancestor (m/f) or descendant (m/f).`
+
+- If the number is negative, return the related ancestor.
+- If positive, return the related descendant.
+- You are generation `0`. In the case of` 0 `(male or female), return `"me!"`.
+
+**Examples**
+```js
+generation(2, "f") ➞ "granddaughter"
+
+generation(-3, "m") ➞ "great grandfather"
+
+generation(1, "f") ➞ "daughter"
+```
+**Notes**
+
+Check the `Resources` tab for helpful hints.
+
+```js 
+Generation	 Male	                Female
+
+-3	         great grandfather	    great grandmother
+-2	         grandfather	        grandmother
+-1	         father	                mother
+ 0	         me!	                me!
+ 1	         son	                daughter
+ 2	         grandson       	    granddaughter
+ 3         	 great grandson	        great granddaughter
+```
+
+# 10 Sizning avlodingiz qaysilar?
+
+Kod yordamida ota-bobolaringiz va avlodlaringizni topishga harakat qiling.
