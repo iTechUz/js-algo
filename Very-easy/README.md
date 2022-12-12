@@ -493,7 +493,7 @@ squared(100) ➞ 10000
 ---
 ***Tarjrima***
 # 14. Xatolarni tuzating
-**Ushbu sinovdan o'tish uchun kod oralig'idagi kodni tuzating (faqat sintaktik xatolar). Funktsiya nima qilishi kerakligi haqida tasavvurga ega bo'lish uchun quyidagi misollarni ko'rib chiqing.**
+#### **Ushbu sinovdan o'tish uchun kod oralig'idagi kodni tuzating (faqat sintaktik xatolar). Funktsiya nima qilishi kerakligi haqida tasavvurga ega bo'lish uchun quyidagi misollarni ko'rib chiqing.**
 ### Misollar
 ```js
 squared(5) ➞ 25
@@ -504,12 +504,8 @@ squared(100) ➞ 10000
 - **HAR SO'ZNI DIQQAT BILAN O'QING, XARAKTER BO'YICHA!**
 - Bu muammo haqida o'ylamang; bu qiyin bo'lmasa kerak :)
 ---
-
-
 # [15. Is the Number Less than or Equal to Zero?](https://edabit.com/challenge/PTiLYyb4A69KZtBCg)
-
-
-**Create a function that takes a number as its only argument and returns ``true`` if it's less than or equal to zero, otherwise return ``false``.**
+#### **Create a function that takes a number as its only argument and returns** ``true`` **if it's less than or equal to zero, otherwise return** ``false``
 ### Examples
 
 ```js
@@ -526,21 +522,30 @@ lessThanOrEqualToZero(-2) ➞ true
 - If you get stuck on a challenge, find help in the Resources tab.
 - If you're really stuck, unlock solutions in the Solutions tab.
 
-#### Rescources
+### Rescources
 
 - [Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp)
 - [If-Else / Else-If](https://www.w3schools.com/js/js_if_else.asp)
 - [Ternary Operator](https://www.programiz.com/javascript/ternary-operator)
 
----
 ***tajrima***
+# 15. Raqam noldan kichikmi yoki tengmi?
+**Raqamni yagona argument sifatida qabul qiladigan va u noldan kichik yoki teng bo'lsa,**`true`, **aks holda** `false` **qaytaradigan funksiya yarating.**
+### Misollar
+```js
+lessThanOrEqualToZero(5) ➞ false
 
+lessThanOrEqualToZero(0) ➞ true
+
+lessThanOrEqualToZero(-2) ➞ true
+```
+### Eslatmalar
+- `return` bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz **Resurslar** bo'limidan izlab ko'ring
 ---
-
-
 # [16. Sum of Polygon Angles](https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG)
 
-**Given an n-sided regular polygon ``n``, return the total sum of internal angles (in degrees).**
+#### Given an n-sided regular polygon ``n``, return the total **sum of internal angles** (in degrees)
 
 ### Examples
 ```js
@@ -549,7 +554,6 @@ sumPolygon(3) ➞ 180
 sumPolygon(4) ➞ 360
 
 sumPolygon(6) ➞ 720
-
 ```
 ### Notes
 - ``n`` will always be greater than 2.
@@ -560,16 +564,24 @@ sumPolygon(6) ➞ 720
 - [Interior Angles of Polygons](https://www.mathsisfun.com/geometry/interior-angles-polygons.html)
 - [Sum of Interior Angles of a Polygon](https://www.khanacademy.org/math/geometry-home/geometry-shapes/angles-with-polygons/v/sum-of-interior-angles-of-a-polygon#:~:text=s...%E2%80%9D-,(n%2D2)x%20180%20degrees%20%3A%20The%20formula%20for,of%20sides%20of%20the%20polygon%20.)
 - [Regular Polygon](https://en.wikipedia.org/wiki/Regular_polygon)
+#### ***tajrima***
+# 16. Ko'pburchak burchaklar yig'indisi
+#### n qirrali muntazam ko‘pburchak `n` berilgan bo‘lsa, **ichki burchaklarning umumiy yig‘indisini** (gradusda) qaytaring.
+### Misollar
+```js
+sumPolygon(3) ➞ 180
 
+sumPolygon(4) ➞ 360
+
+sumPolygon(6) ➞ 720
+```
+### Eslatmalar
+- `n` har doim 2 dan katta bo'ladi
+- **(n - 2) x 180** formulasi n qirrali ko'pburchak burchaklarining barcha o'lchovlari yig'indisini beradi.
 ---
-***tajrima***
-
----
-
-
 # [17. Basketball Points](https://edabit.com/challenge/Y46Xp2pcvTB77bmdD)
 
-**You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.**
+#### **You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.**
 
 ### Examples
 ```js
@@ -579,68 +591,67 @@ points(7, 5) ➞ 29
 
 points(38, 8) ➞ 100
 ```
-
 ### Notes
-
-- N/A
-
+- N/A (Not Applicable)
+- [About N/A](https://en.wikipedia.org/wiki/N/A)
 #### Rescources
-
 - [Arithmetic Operators](https://www.w3schools.com/js/js_operators.asp)
 - [Arrow Function](https://www.w3schools.com/Js/js_arrow_function.asp)
 
-
----
 ***tajrima***
+# 17. Basketbol ochkolari
+#### **Siz basketbol o'yini uchun ochkolarni hisoblayapsiz, 2 ochkolik va 3 ochkolik to'plar miqdorini hisobga olib, jamoa uchun yakuniy ochkolarni toping va bu qiymatni qaytaring.**
+### Misollar
+```js
+points(1, 1) ➞ 5
 
+points(7, 5) ➞ 29
+
+points(38, 8) ➞ 100
+```
+### Eslatmalar
+- N/A (qo'llab bo'lmaydigan)
+- [N/A haqida](https://en.wikipedia.org/wiki/N/A)(ingliz tilida)
 ---
-
 
 # [18. Basic Variable Assignment](https://edabit.com/challenge/ZNwHGgHvsdnYwJ5WK)
-
-**A student learning JavaScript was trying to make a function. His code should concatenate a passed string ``name`` with string ``"Edabit"`` and store it in a variable called ``result``. He needs your help to fix this code.**
-
+#### **A student learning JavaScript was trying to make a function. His code should concatenate a passed string** ``name`` **with string** ``"Edabit"`` **and store it in a variable called** ``result``. **He needs your help to fix this code.**
 ### Examples
-
 ```js
 nameString("Mubashir") ➞ "MubashirEdabit"
 
 nameString("Matt") ➞ "MattEdabit"
 
 nameString("javaScript") ➞ "javaScriptEdabit"
-
 ```
 
-### Examples
-
-- Don't forget to return the result.
-- If you get stuck on a challenge, find help in the Resources tab.
-- If you're really stuck, unlock solutions in the Solutions tab.
-
-
-#### Rescources
-
-
+### Notes
+- Don't forget to return the `result`.
+- If you get stuck on a challenge, find help in the **Resources** tab.
+### Rescources
 - [JavaScript Assignment](https://www.w3schools.com/js/js_assignment.asp)
 - [Assignment (=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment)
 - [JavaScript Strings](https://www.w3schools.com/js/js_strings.asp)
 
-
----
 ***tajrima***
+# 18. Asosiy o'zgaruvchilarni tayinlash
+#### **JavaScript-ni o'rganayotgan talaba funktsiyani yaratmoqchi edi. Uning kodi o'tkazilgan satr** `name`**ni "Edabit" qatori bilan birlashtirishi va uni** `result` **deb nomlangan o'zgaruvchida saqlashi kerak. Ushbu kodni tuzatish uchun unga yordamingiz kerak.**
+### Misollar
+```js
+nameString("Mubashir") ➞ "MubashirEdabit"
 
+nameString("Matt") ➞ "MattEdabit"
+
+nameString("javaScript") ➞ "javaScriptEdabit"
+```
+### Eslatmalar
+- `return` bayonotidan foydalanishni unutmang
+- Agar muammoga duch kelsangiz **Resurslar** bo'limidan izlab ko'ring
 ---
-
-
-
-
 # [19. Less Than 100?](https://edabit.com/challenge/9MjEpkL7yAjAqiH58)
 
-**Given two numbers, return ``true`` if the sum of both numbers is less than 100. Otherwise return ``false``.**
-
-
+#### **Given two numbers, return** ``true`` **if the sum of both numbers is less than 100. Otherwise return** ``false``.
 ### Examples
-
 ```js
 lessThan100(22, 15) ➞ true
 // 22 + 15 = 37
@@ -649,78 +660,64 @@ lessThan100(83, 34) ➞ false
 // 83 + 34 = 117
 
 lessThan100(3, 77) ➞ true
-
 ```
-
-### Examples
-
-- N/A
-
+### Notes
+- N/A (Not Applicable)
+- [About N/A](https://en.wikipedia.org/wiki/N/A)
 ### Rescources
 
 - [The Conditional (Ternary) Operator Explained](https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff)
 - [JavaScript Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 - [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-
----
 ***tajrima***
+# 19. 100 dan kammi?
+#### **Ikki raqam berilgan bo'lsa, ikkala raqamning yig'indisi 100 dan kichik bo'lsa,**`true` **qiymatini qaytaring. Aks holda,** `false` **qaytaring.**
+### Misollar
+```js
+lessThan100(22, 15) ➞ true
+// 22 + 15 = 37
 
+lessThan100(83, 34) ➞ false
+// 83 + 34 = 117
+
+lessThan100(3, 77) ➞ true
+```
+### Eslatmalar
+- N/A (qo'llab bo'lmaydigan)
+- [N/A haqida](https://en.wikipedia.org/wiki/N/A)(ingliz tilida)
 ---
-
-
 # [20. Buggy Code (Part 5)](https://edabit.com/challenge/4iCsexZgmDEMMxj46)
 
-**Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.**
-
-
-
+#### **[Mubashir](https://edabit.com/user/T6iBEE2jp7f7iEF2P)** created an infinite loop! Help him by fixing the code in the code tab to pass this challenge. Look at the examples below to get an idea of what the function should do.
 ### Examples
-
 ```js
 printArray(1) ➞ [1]
 
 printArray(3) ➞ [1, 2, 3]
 
 printArray(6) ➞ [1, 2, 3, 4, 5, 6]
-
 ```
-
-### Examples
-
-
+### Notes
 - **READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!**
 - Don't overthink this challenge; it's not supposed to be hard.
-
-
 ### Rescources
-
 - [JavaScript For Loop](https://www.w3schools.com/js/js_loop_for.asp)
 - [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 - [Array() Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
 
-
----
 ***tajrima***
+# 20. Buggy Kodi (5-qism)
+#### **[Mubashir](https://edabit.com/user/T6iBEE2jp7f7iEF2P)** cheksiz aylana yaratdi! Ushbu sinovdan o'tish uchun kod yorlig'idagi kodni tuzatish orqali unga yordam bering. Funktsiya nima qilishi kerakligi haqida tasavvurga ega bo'lish uchun quyidagi misollarni ko'rib chiqing.
+### Misollar
+```js
+printArray(1) ➞ [1]
 
+printArray(3) ➞ [1, 2, 3]
+
+printArray(6) ➞ [1, 2, 3, 4, 5, 6]
+```
+### Eslatmalar
+- **HAR SO'ZNI DIQQAT BILAN O'QING, XARAKTER BO'YICHA!**
+- Bu muammo haqida chuqur o'ylash shart emas; bu qiyin bo'lmasa kerak :)
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
